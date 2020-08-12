@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "start:ext": "ng run ext-app1:serve-ext",
-    "start:ext:prod": "ng run ext-app1:serve-ext-prod",
+    "start:ext:prod": "ng run ext-app1:serve-ext-prod --host 0.0.0.0 --disable-host-check",
     "build": "ng build",
     "build:ext": "ng run ext-app1:build-ext",
     "build:ext:prod": "ng run ext-app1:build-ext-prod --configuration=production",

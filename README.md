@@ -74,4 +74,7 @@ Example-cli
 3. In the "ext-app1" folder run npm run start:ext:prod
 4. For AOT run npm serve --prod in "shell-app" and npm run serve:ext:prod in "ext-app1"
 5. You can also run ext-app1 in standalone mode with ng serve
+
+ext-app is loaded with name mfe-server.local. Add this line in the machine to test
+127.0.0.1 mfe-server.local
 ```

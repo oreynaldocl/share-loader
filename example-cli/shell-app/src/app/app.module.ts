@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {SelectComponent} from './select.component';
-import {APP_STATES} from './app.states';
+import {APP_STATES} from './app.routing-states';
 import {App1Component} from './app1.component';
 import {RouterModule} from '@angular/router';
 import {ReactiveFormsModule} from "@angular/forms";

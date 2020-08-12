@@ -2,7 +2,7 @@ import {Component, ViewEncapsulation} from '@angular/core'
 
 @Component({
   selector: 'ext-comp',
-  encapsulation: ViewEncapsulation.Native,
+  encapsulation: ViewEncapsulation.ShadowDom,
   styles: [`
     :host {
       display: block;
